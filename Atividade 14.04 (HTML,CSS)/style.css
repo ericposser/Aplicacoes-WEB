@@ -1,0 +1,23 @@
+body{
+    background-image: url("Escudos/campo.jpg");
+    background-size: cover;
+}
+table, th ,td{
+    border: 2px solid rgb(1, 83, 1);
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#estilo{
+    background-color: white;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
