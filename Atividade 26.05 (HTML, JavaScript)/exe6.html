@@ -1,0 +1,46 @@
+<html>
+    <body>
+        v1:
+        <input type="text" id="v1">
+        v2:
+        <input type="text" id="v2">
+
+        <button type="button" id="bsomar" onclick="minhafuncao1()"> somar </button>
+
+        <button type="button" id="bsubtrair" onclick="minhafuncao2()"> subtrair </button>
+
+        <button type="button" id="bmultiplicar" onclick="minhafuncao3()"> multiplicar </button>
+
+        <button type="button" id="bdividir" onclick="minhafuncao4()"> dividir </button>
+        <script>
+            function minhafuncao1(){
+                var v1 = document.getElementById("v1").value;
+                var v2 = document.getElementById("v2").value;
+                soma = eval(v1) + eval(v2);
+                alert("resultado = " + soma);
+            }
+
+            function minhafuncao2(){
+                var v1 = document.getElementById("v1").value;
+                var v2 = document.getElementById("v2").value;
+                sub = v1 - v2;
+                alert("resultado = " + sub);
+            }
+
+            function minhafuncao3(){
+                var v1 = document.getElementById("v1").value;
+                var v2 = document.getElementById("v2").value;
+                multi = v1 * v2;
+                alert("resultado = " + multi);
+            }
+
+            function minhafuncao4(){
+                var v1 = document.getElementById("v1").value;
+                var v2 = document.getElementById("v2").value;
+                divi = v1 / v2
+                alert("resultado = " + divi);
+            }
+
+        </script>
+    </body>
+</html>

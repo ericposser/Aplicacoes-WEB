@@ -1,0 +1,20 @@
+<html>
+    <body>
+        nome:
+        <input type="text" id="nome">
+        idade:
+        <input type="text" id="idade">
+        <button type="button" id="btn" onclick="minhafuncao()"> botão </button>
+
+        <script>
+            function minhafuncao(){
+                var nome = document.getElementById("nome").value;
+                var idade = document.getElementById("idade").value;
+                
+                var btn = document.getElementById("btn");
+                alert("O nome dele é: " + nome + " e tem " + idade);
+            }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <body>
+        v1:
+        <input type="text" id="v1">
+        v2:
+        <input type="text" id="v2">
+        <button type="button" id="btn" onclick="minhafuncao()"> botão </button>
+        
+        <script>
+            function minhafuncao(){
+                var v1 = document.getElementById("v1").value;
+                var v2 = document.getElementById("v2").value;
+                
+                var btn = document.getElementById("btn");
+
+                soma = eval(v2) + eval(v2);
+
+                alert("resultado = " + soma);
+            }
+
+        </script>
+    </body>
+</html>
