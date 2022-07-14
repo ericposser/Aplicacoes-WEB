@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    color: black;
+}
+
+
+.navbarr{
+    background-color: rgb(214, 214, 214);
+    font-family: 'Playfair Display', serif;
+}
+
+.card-titlep{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.card-text{
+    color: black;
+}
+
+.card-title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col01{
+    padding: 10px 20px;
+    
+}
+
+.col02{
+    padding: 10px 20px;
+}
+
+.col03{
+    padding: 10px 20px;
+}
+
+.col04{
+    padding: 10px 20px;
+}
+
+.col05{
+    padding: 10px 20px;
+}
+
+.col06{
+    padding: 10px 20px;
+}
+
+.col07{
+    padding: 10px 20px;
+}
+
+.col08{
+    padding: 10px 20px;
+}
+
+.card{
+    background-color: #c2c4c4;
+}
+
+#infos{
+    background-color: #27251f;
+    display: flex;
+    justify-content: space-around;
+}
+
+h4{
+    color: white;
+}
+
+.offcanvas-body{
+    color: white;
+}
+
+#footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offcanvas-bodyp{
+    padding: 10px;
+}
+
+#spacep{
+    display: flex;
+}
+
+#spaces{
+    display: flex;
+}
+
+.offcanvas-bodyf{
+    padding: 10px;
+}

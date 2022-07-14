@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    color: black;
+}
+
+
+.navbarr{
+    background-color: rgb(214, 214, 214);
+    font-family: 'Playfair Display', serif;
+}
+
+
+#infos{
+    background-color: #27251f;
+    display: flex;
+    justify-content: space-around;
+}
+
+h4{
+    color: white;
+}
+
+.offcanvas-body{
+    color: white;
+}
+
+.btn{
+    color: white;
+    background-color: grey;
+}
+
+#cards{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-around;
+}
+
+.offcanvas-bodyf{
+    padding: 10px;
+}
+
+#footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offcanvas-bodyp{
+    padding: 10px;
+}
+
+#spacep{
+    display: flex;
+}
+
+#spaces{
+    display: flex;
+}
+
+
+
+
+

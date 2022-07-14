@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    background-color: grey;
+}
+
+.navbarr{
+    background-color: rgb(214, 214, 214);
+    font-family: 'Playfair Display', serif;
+}
+
+.btn2{
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    border-color: white;
+    font-family:monospace;
+    box-shadow: 0 0 0.5em black;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+#idemail{
+    box-shadow: 0 0 0.2em black;
+}
+
+#idsenha{
+    box-shadow: 0 0 0.2em black;
+}
+
+.cardd{
+    color: white;
+    background-color: #343a40;
+    box-shadow: 0 0 1em black;
+}
+
